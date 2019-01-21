@@ -16,3 +16,9 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//TODO Lookup techmeetups for upcoming stuffs
+Route::get('/techmeetups/upcoming', 'TechmeetupsController@getUpcoming');
+
+//TODO Check techmeetups for past meetups
+//Route::get('/techmeetups/past', 'TechmeetupsController@getPast');
