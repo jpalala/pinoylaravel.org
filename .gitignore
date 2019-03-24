@@ -1,0 +1,16 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+/.phpintel
+mix-manifest.json
+/public/js/app.js
+/public/owl.video.play.png
+/public/css/app.css
+/public/fonts/vendor
+/public/images/vendor
+package-lock.json
