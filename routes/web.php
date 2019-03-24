@@ -11,5 +11,6 @@
 |
 */
 
-Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index']);
-Route::get('slack', ['as' => 'slack', 'uses' => 'HomeController@slack']);
+Route::get('/', function () {
+    return view('welcome');
+});
